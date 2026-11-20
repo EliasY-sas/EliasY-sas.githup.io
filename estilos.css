@@ -1,0 +1,169 @@
+
+/* QUITAR LOS ESPACIOS AUTOMATICOS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ENCABEZADO */
+.encabezado {
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* LOGO */
+.logo h2 {
+    font-family: Arial;
+    font-size: 25px;
+}
+
+
+/* MENU */
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-family: Arial;
+}
+
+/* Cambiar el color cuando pasamos el mouse */
+.menu a:hover {
+    color: orange;
+}
+
+
+/* INICIO */
+.inicio {
+    position: relative;
+    height: 300px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    font-family: Arial;
+}
+
+/* Ajustar la imagen al tamaño del inicio */
+.inicio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Colocar el texto encima de la imagen */
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    text-shadow: 2px 2px 5px black;
+}
+
+.texto h5 {
+    font-size: 20px;
+}
+
+.texto h1 {
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+
+/* SECCIONES */
+.seccion {
+    display: none;
+    background-color: #eeeeee;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: Arial;
+}
+
+/* Titulo de cada seccion */
+.seccion h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* CONTENEDOR DE CAJAS */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+/* CAJAS */
+.caja {
+    width: 250px;
+    min-height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Imagenes dentro de las cajas */
+.caja img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Titulo de las cajas */
+.caja h3 {
+    margin: 10px 0;
+}
+
+/* Descripcion de las cajas */
+.caja p {
+    margin-bottom: 10px;
+}
+
+
+/* BOTONES DE LAS CAJAS */
+.caja a {
+    display: inline-block;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+/* Cambiar color del boton al pasar el mouse */
+.caja a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* REDES SOCIALES */
+.redes a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 10px;
+}
+
+/* Efecto de las redes sociales */
+.redes a:hover {
+    background-color: orange;
+    color: black;
+}
